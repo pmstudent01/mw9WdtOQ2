@@ -1,0 +1,16 @@
+id: 01a18398-a4a6-719a-bc2a-0d2608ba30ba
+version: 1
+name: vehicle-service
+slug: vehicle-service
+enableSession: true
+protocol: http
+port: 4500
+autoRestartOnChange: true
+logging:
+  level: verbose
+  showBody: true
+scenarios:
+  - name: default
+    path: ./default.js
+    default: true
+    id: 01a183ab-0f28-7539-892c-8e24588314d0
